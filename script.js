@@ -11,39 +11,39 @@ const siteContent = {
   },
   portfolio: [
     {
-      title: "The golden hour",
-      category: "events",
-      label: "EVENTS",
-      image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85",
-      alt: "A couple celebrating together in warm evening light"
-    },
-    {
-      title: "Quiet confidence",
-      category: "portraits",
-      label: "PORTRAITS",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=85",
-      alt: "Portrait of a woman looking thoughtfully toward the camera"
-    },
-    {
-      title: "Where we belong",
+      title: "Stories in the community",
       category: "documentary",
-      label: "DOCUMENTARY",
+      label: "NON-PROFIT",
       image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1400&q=85",
-      alt: "A group of friends gathered together outdoors"
+      alt: "A community group spending time together outdoors"
     },
     {
-      title: "The makers",
+      title: "A day to remember",
+      category: "events",
+      label: "WEDDING",
+      image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85",
+      alt: "A couple celebrating their wedding together"
+    },
+    {
+      title: "The groom",
+      category: "portraits",
+      label: "WEDDING PORTRAIT",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=85",
+      alt: "Portrait of a man outdoors in a dark jacket"
+    },
+    {
+      title: "Made with care",
       category: "brands",
-      label: "BRAND STORIES",
-      image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=85",
-      alt: "Sunlit creative workspace prepared for a day of work"
+      label: "PRODUCT",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1400&q=85",
+      alt: "A red athletic shoe photographed as a product"
     },
     {
-      title: "A slower kind of morning",
+      title: "A moment in the wild",
       category: "film",
-      label: "FILM",
+      label: "OUTDOOR NATURE",
       image: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=85",
-      alt: "First light rising over a quiet, misty landscape"
+      alt: "Soft morning light over a misty natural landscape"
     }
   ]
 };
@@ -174,6 +174,13 @@ function renderContactDetails() {
 
 const enquiryForm = document.querySelector("#enquiry-form");
 const formStatus = document.querySelector("#form-status");
+const serviceSelect = enquiryForm.elements.service;
+document.querySelectorAll(".package-link").forEach((link) => {
+  link.addEventListener("click", () => {
+    serviceSelect.value = link.dataset.service;
+  });
+});
+
 enquiryForm.addEventListener("submit", (event) => {
   event.preventDefault();
   if (!enquiryForm.reportValidity()) return;
