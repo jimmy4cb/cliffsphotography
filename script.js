@@ -11,39 +11,172 @@ const siteContent = {
   },
   portfolio: [
     {
-      title: "Stories in the community",
+      title: "Community voices",
       category: "documentary",
       label: "NON-PROFIT",
-      image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1400&q=85",
-      alt: "A community group spending time together outdoors"
+      image: "photos/tom-5921.jpg",
+      alt: "A community advocate presenting at a Civic Watch Project meeting"
     },
     {
-      title: "A day to remember",
-      category: "events",
-      label: "WEDDING",
-      image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85",
-      alt: "A couple celebrating their wedding together"
-    },
-    {
-      title: "The groom",
+      title: "Portrait in the garden",
       category: "portraits",
-      label: "WEDDING PORTRAIT",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=85",
-      alt: "Portrait of a man outdoors in a dark jacket"
+      label: "PORTRAIT",
+      image: "photos/tom-ogalo-158.jpg",
+      alt: "Smiling woman photographed against a leafy garden"
     },
     {
-      title: "Made with care",
+      title: "Everyday product story",
       category: "brands",
       label: "PRODUCT",
-      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1400&q=85",
-      alt: "A red athletic shoe photographed as a product"
+      image: "photos/tom-202.jpg",
+      alt: "Beauty product photographed on a counter with a colorful background"
     },
     {
-      title: "A moment in the wild",
-      category: "film",
+      title: "A quiet moment outdoors",
+      category: "nature",
       label: "OUTDOOR NATURE",
-      image: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=85",
-      alt: "Soft morning light over a misty natural landscape"
+      image: "photos/lakeside-27.jpg",
+      alt: "Two vervet monkeys sitting together on a rock"
+    },
+    {
+      title: "Behind the camera",
+      category: "film",
+      label: "BEHIND THE SCENES",
+      image: "photos/ogalo-japicha-220.jpg",
+      alt: "Photographer in a red shirt carrying a camera outdoors"
+    },
+    {
+      title: "A place to refuel",
+      category: "brands",
+      label: "COMMERCIAL",
+      image: "photos/tom-ogalo-24.jpg",
+      alt: "Wide view of a fuel station and its forecourt"
+    },
+    {
+      title: "Together at home",
+      category: "events",
+      label: "COMMUNITY",
+      image: "photos/tom-ogalo-107.jpg",
+      alt: "Family and friends gathered together outside a home"
+    },
+    {
+      title: "The team gathers",
+      category: "events",
+      label: "SPORT",
+      image: "photos/tom-ogalo-150.jpg",
+      alt: "Rugby players gathering on a grassy field"
+    },
+    {
+      title: "A thoughtful moment",
+      category: "documentary",
+      label: "DOCUMENTARY",
+      image: "photos/tom-ogalo-152.jpg",
+      alt: "Man in a blue shirt looking at his phone outdoors"
+    },
+    {
+      title: "Meet the player",
+      category: "portraits",
+      label: "SPORT PORTRAIT",
+      image: "photos/tom-ogalo-184.jpg",
+      alt: "Rugby player holding a ball for a portrait"
+    },
+    {
+      title: "A little joy",
+      category: "portraits",
+      label: "PORTRAIT",
+      image: "photos/tom-ogalo-228.jpg",
+      alt: "Woman smiling and making a heart shape with her arms"
+    },
+    {
+      title: "Growing together",
+      category: "documentary",
+      label: "COMMUNITY",
+      image: "photos/tom-ogalo-237.jpg",
+      alt: "Person tending to young green plants in a garden"
+    },
+    {
+      title: "The whole squad",
+      category: "events",
+      label: "SPORT",
+      image: "photos/tom-ogalo-241.jpg",
+      alt: "Women's rugby team posing together on a field"
+    },
+    {
+      title: "In conversation",
+      category: "documentary",
+      label: "COMMUNITY",
+      image: "photos/tom-ogalo-272.jpg",
+      alt: "Three friends sharing a conversation outdoors"
+    },
+    {
+      title: "Stories shared",
+      category: "documentary",
+      label: "COMMUNITY",
+      image: "photos/tom-ogalo-338.jpg",
+      alt: "Four men talking together outside a brick building"
+    },
+    {
+      title: "A moment to focus",
+      category: "film",
+      label: "BEHIND THE SCENES",
+      image: "photos/tom-5847.jpg",
+      alt: "Photographer working on a laptop at a table"
+    },
+    {
+      title: "Listening to the room",
+      category: "documentary",
+      label: "NON-PROFIT",
+      image: "photos/tom-5941.jpg",
+      alt: "Woman speaking at a community meeting"
+    },
+    {
+      title: "A neighborhood landmark",
+      category: "brands",
+      label: "COMMERCIAL",
+      image: "photos/tom-2.jpg",
+      alt: "Street view of a cafe and market building"
+    },
+    {
+      title: "Along the high street",
+      category: "brands",
+      label: "COMMERCIAL",
+      image: "photos/tom-32.jpg",
+      alt: "Shops and businesses along a city street"
+    },
+    {
+      title: "Wildlife in the shade",
+      category: "nature",
+      label: "WILDLIFE",
+      image: "photos/lakeside-207.jpg",
+      alt: "Two vervet monkeys resting on a sunlit rock"
+    },
+    {
+      title: "Looking out",
+      category: "nature",
+      label: "OUTDOORS",
+      image: "photos/lakeside-341.jpg",
+      alt: "Traveler looking out across a rocky landscape"
+    },
+    {
+      title: "A day on the trail",
+      category: "documentary",
+      label: "OUTDOOR STORIES",
+      image: "photos/lakeside-343.jpg",
+      alt: "Two women taking a break during a walk in the woods"
+    },
+    {
+      title: "Portrait among the leaves",
+      category: "portraits",
+      label: "PORTRAIT",
+      image: "photos/ogalo-japicha-42.jpg",
+      alt: "Young person wearing sunglasses among green leaves"
+    },
+    {
+      title: "On assignment",
+      category: "film",
+      label: "BEHIND THE SCENES",
+      image: "photos/tom-ogalo-170.jpg",
+      alt: "Phone recording video outdoors"
     }
   ]
 };
@@ -58,11 +191,13 @@ let currentImage = 0;
 
 function renderPortfolio(category = "all") {
   visibleProjects = siteContent.portfolio.filter((project) => category === "all" || project.category === category);
+  const allWorkCount = document.querySelector('[data-filter="all"] span');
+  allWorkCount.textContent = String(siteContent.portfolio.length).padStart(2, "0");
   grid.replaceChildren(...visibleProjects.map((project, index) => {
     const button = document.createElement("button");
     button.className = "portfolio-card";
     button.type = "button";
-    button.setAttribute("aria-label", `View ${project.title}, ${project.label.toLowerCase()} sample image`);
+    button.setAttribute("aria-label", `View ${project.title}, ${project.label.toLowerCase()}`);
 
     const image = document.createElement("img");
     image.src = project.image;
